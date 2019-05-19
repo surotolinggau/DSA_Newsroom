@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="../../vendor/ckeditor/ckeditor.js"></script>
+    <title>Newsroom DSA</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Navbar -->
+<section class="navbar_menu">
+    <nav class="navbar navbar-light background_nav">
+        <div class="container  text-light">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a href="../menu.html" class="text-light">
+                        <i class="icon ion-md-menu ukuran_icon_nav"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn btn-link text-light" data-toggle="dropdown"
+                            data-display="static" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon ion-md-notifications-outline ukuran_icon_nav"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Berita Reporter Ditambahkan</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Reporter D Memakukan Berita Baru</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-link text-light" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="icon ion-md-person ukuran_icon_nav"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Your Name</a>
+                            <a class="dropdown-item" href="#">Alamat</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="../../../index.html">Log Out</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<!-- akhir Navbar -->
+
+
+
+
+
+
+
+
+    <!-- logo  -->
+    <section class="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col p-1 mb-5">
+                    <img src="../../img/Logo.JPG" alt="logo DSA" class="logo_menu">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Logo -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bugkus admin posting -->
+    <section class="edit_admin_posting">
+        <div class="container">
+            <form action="pos_lengkap.html">
+                <div class="form-row">
+
+                    <!-- edit editor postingan -->
+                    <div class="col-md-6">
+                        <div class="form-row">
+                            <div class="col-9 pt-1 pb-3">
+                                <input type="text" class="form-control border-primary" value="Berita B">
+                            </div>
+                            <div class="col-3">
+                                <ul class="nav justify-content-end mr-3 text-secondary">
+                                    <li class="nav-item p-1 ">
+                                        <div class="btn-group">
+                                            <i class="icon ion-md-add icon_post"></i>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item p-1">
+                                        <div class="btn-group">
+                                            <i class="icon ion-md-camera icon_post"></i>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <textarea class="form-control ckeditor" id="ckeditor">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil corporis inventore atque, excepturi ut quidem tempore ducimus dignissimos odit. Amet cupiditate quia voluptatem reprehenderit hic, modi illo itaque numquam quisquam sapiente fuga error repellendus, placeat aliquid beatae? Eveniet earum optio sunt doloremque mollitia sit est, assumenda minus reprehenderit. Rem pariatur voluptatibus esse ratione perspiciatis laborum nostrum at libero porro, repudiandae explicabo tempora odit voluptas ex qui enim fugit adipisci culpa! Eum sint totam dolore voluptas quae? Aliquid, error similique.
+                        </textarea>
+                    </div>
+
+                    <!-- Akhir edit editor postingan -->
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- edit tema,tanggal. lokasi -->
+                    <div class="col-md-6">
+                        <div class="form-group pr-5 pl-3 pt-2">
+                            <select class="form-control  mt-5 mb-3 border-primary">
+                                <option disabled>Tema</option>
+                                <option>Politik</option>
+                                <option selected>Olahraga</option>
+                                <option>More ...</option>
+                            </select>
+                            <input class="form-control mb-3 border-primary" type="date" id="example-date-input" value="2019-03-21">
+                            <select class="form-control mb-3 border-primary">
+                                <option disabled>Lokasi</option>
+                                <option selected>Kudus</option>
+                                <option>Jati</option>
+                                <option>Jepara</option>
+                                <option>Rembang</option>
+                                <option>Grobokan</option>
+                                <option>Blora</option>
+                                <option>Lokasi Lainnya ...</option>
+                            </select>
+                        </div>
+                        <div class="form-row pr-5 pl-5 jarak_pos">
+                            <div class="col-2 col-md-3 col-lg-2">
+                                <button type="submit" class="btn btn-light border-primary">Edit</button>
+                            </div>
+                            <div class="col-10 col-md-9 col-lg-10">
+                                <button type="submit" class="btn btn-info">Dikembalikan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- akhir edit tema,tanggal. lokasi -->
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- akhir bungkus edit admin posting -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../js/javascript.js"></script>
+
+</body>
+
+</html>
